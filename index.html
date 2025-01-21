@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Notes App</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="app">
+            <h1>Alba's Rulebook.</h1>
+            <input type="text" id="noteTitle" placeholder="Enter the title of your note Alba..." />
+            <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+            <button id="saveNote">Save Note</button>
+            <button id="clearNote">Clear Note</button>
+            <div id="savedNotes">
+                <h2>Saved Notes</h2>
+                <ul id="notesList"></ul>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
